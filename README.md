@@ -3,3 +3,5 @@ This work explores unlearning class '6' from the MNIST dataset by replacing it w
 The weights most responsible for predicting '6' are identified, while others are frozen. The model is fine-tuned with a custom loss function that favors class '3' while penalizing class '6'.<br>
 A modified ResNet-50 model, adjusted for MNIST with a custom first convolutional layer to reduce downsampling, is used.<br>
 The model is then fine-tuned on a retain dataset (excluding class '6') to improve performance.
+
+**Note:** The dataset used in this project has been populated manually and is not recommended for use in other projects. It is intended solely for the purposes of this classification task and should not be considered a reliable or standardized dataset.
